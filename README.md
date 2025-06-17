@@ -29,6 +29,7 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 | [Schema](#schema-)                  | 🗂 Explanation of data schemas used          |
 | [React Hooks](#react-hooks-)            | 🎣 Overview of React Hooks utilized          |
 | [React Library](#react-library-)         | ⚛️📚 Overview of React Libraries used        |
+| [Environment Setup](#environment-setup) | ⚙️ Steps to configure environment variables |
 | [Screen Preview](#screen-preview-)         | 🖥️ Screen Preview        |
 
 
@@ -178,6 +179,11 @@ Utilized several React hooks for efficient state management and dynamic behavior
 - 🖋️ **React Type Animation:**  Simple and configurable typing animation component for React.
 - 🎥 **Video React:**  React-based video player for building rich multimedia experiences in web applications.
 
+
+
+## Environment Setup
+
+Copy `backend/.env.example` to `backend/.env` and `frontend/.env.example` to `frontend/.env`. Update all values in these new files with your actual configuration.
 
 
 ##  🖥️ Screen Preview :
