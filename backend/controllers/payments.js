@@ -1,5 +1,5 @@
 const Rajorpay = require('razorpay');
-const instance = require('../config/rajorpay');
+const instance = require('../config/razorpay');
 const crypto = require('crypto');
 const mailSender = require('../utils/mailSender');
 const { courseEnrollmentEmail } = require('../mail/templates/courseEnrollmentEmail');
@@ -199,7 +199,7 @@ exports.sendPaymentSuccessEmail = async (req, res) => {
 // exports.verifySignature = async (req, res) => {
 //     const webhookSecret = '12345678';
 
-//     const signature = req.headers['x-rajorpay-signature'];
+//     const signature = req.headers['x-razorpay-signature'];
 
 //     const shasum = crypto.createHmac('sha256', webhookSecret);
 //     shasum.update(JSON.stringify(req.body));
@@ -240,12 +240,12 @@ exports.sendPaymentSuccessEmail = async (req, res) => {
 //         }
 
 //         catch (error) {
-//             console.log('Error while verifing rajorpay signature');
+//             console.log('Error while verifing razorpay signature');
 //             console.log(error);
 //             return res.status(500).json({
 //                 success: false,
 //                 error: error.messsage,
-//                 message: 'Error while verifing rajorpay signature'
+//                 message: 'Error while verifing razorpay signature'
 //             });
 //         }
 //     }
