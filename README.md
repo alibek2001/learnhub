@@ -29,6 +29,7 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 | [Schema](#schema-)                  | 🗂 Explanation of data schemas used          |
 | [React Hooks](#react-hooks-)            | 🎣 Overview of React Hooks utilized          |
 | [React Library](#react-library-)         | ⚛️📚 Overview of React Libraries used        |
+| [Getting Started](#getting-started-)         | 🚀 Setup instructions for local development        |
 | [Screen Preview](#screen-preview-)         | 🖥️ Screen Preview        |
 
 
@@ -178,6 +179,27 @@ Utilized several React hooks for efficient state management and dynamic behavior
 - 🖋️ **React Type Animation:**  Simple and configurable typing animation component for React.
 - 🎥 **Video React:**  React-based video player for building rich multimedia experiences in web applications.
 
+
+## Getting Started
+
+### Prerequisites
+- Node.js and npm
+
+### Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Both parts require environment variables. Copy `.env.example` to `.env` and fill in the values before running the apps.
 
 
 ##  🖥️ Screen Preview :
