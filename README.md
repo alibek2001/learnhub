@@ -29,6 +29,7 @@ The platform is built using the **MERN stack**, which includes ReactJS, NodeJS, 
 | [Schema](#schema-)                  | 🗂 Explanation of data schemas used          |
 | [React Hooks](#react-hooks-)            | 🎣 Overview of React Hooks utilized          |
 | [React Library](#react-library-)         | ⚛️📚 Overview of React Libraries used        |
+| [Environment Setup](#environment-setup) | ⚙️ Steps to configure environment variables |
 | [Getting Started](#getting-started-)         | 🚀 Setup instructions for local development        |
 | [Screen Preview](#screen-preview-)         | 🖥️ Screen Preview        |
 
@@ -200,6 +201,11 @@ npm run dev
 ```
 
 Both parts require environment variables. Copy `.env.example` to `.env` and fill in the values before running the apps.
+
+
+## Environment Setup
+
+Copy `backend/.env.example` to `backend/.env` and `frontend/.env.example` to `frontend/.env`. Update all values in these new files with your actual configuration.
 
 
 ##  🖥️ Screen Preview :
